@@ -93,8 +93,8 @@ else
 	echo -e "\nNot backing up old dotfiles."
 fi
 
-printf "source '$HOME/dotfiles/zsh/zshrc_manager.sh'" > ~/.zshrc
-printf "so $HOME/dotfiles/vim/vimrc.vim" > ~/.vimrc
+printf "source '$HOME/env/zsh/zshrc_starter.sh'" > ~/.zshrc
+printf "so $HOME/env/vim/vimrc.vim" > ~/.vimrc
 printf "source-file $HOME/env/tmux/tmux.conf" > ~/.tmux.conf
 
 echo
