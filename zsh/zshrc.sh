@@ -10,6 +10,7 @@ alias y='yarn'
 alias ys='yarn start'
 alias t='tmux'
 alias php7='/Applications/MAMP/bin/php/php7.1.12/bin/php'
+alias build='yarn build && serve -s build'
 
 # Settings
 export VISUAL=vim
