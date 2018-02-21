@@ -8,6 +8,8 @@
 	set relativenumber
 	set number
 
+	command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
+
 	set cursorline
 	hi Cursor ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
 
