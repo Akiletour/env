@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ## Variables
 HISTFILE=~/.zsh_history
 SAVEHIST=1000
@@ -11,6 +12,7 @@ alias ys='yarn start'
 alias t='tmux'
 alias php7='/Applications/MAMP/bin/php/php7.1.12/bin/php'
 alias build='yarn build && serve -s build'
+alias rmate='ssh -R 52698:127.0.0.1:52698'
 
 # Settings
 export VISUAL=vim
